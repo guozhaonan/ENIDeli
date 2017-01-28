@@ -1,0 +1,34 @@
+.header {
+  background-color: #9e1b34;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.contact {
+  color: white;
+  background: -webkit-linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
+  background: linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
+}
+.contact a {
+  margin-top: 50px;
+  box-shadow: none;
+  background: none;
+  margin-left: 30px;
+}
+
+.contact span {
+  font-size: 2em;
+  color: white;
+  -webkit-transition: color ease .4s;
+          transition: color ease .4s;
+}
+
+.contact span:hover {
+  color: steelblue;
+}
