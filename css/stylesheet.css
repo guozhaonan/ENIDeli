@@ -13,6 +13,11 @@ section {
   margin: auto;
   width: 40%;
 }
+.menu {
+  background-color: #7E051D;
+  color: white;
+  text-align: center;
+}
 .contact {
   color: white;
   background: -webkit-linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
