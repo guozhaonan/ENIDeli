@@ -24,13 +24,16 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Prompt:500,900" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -42,30 +45,101 @@
 
 </head>
 <body>
+  <!--Navigation-->
+<!-- <nav class="navbar navbar-inverse  navbar-fixed-top" >
+
+<div class="conatiner-fluid">
+
+   <div class="navbar-header" role="navigation">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target= "#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+       </button>
+	   <a class="navbar-brand" href="#">Website</a>
+   </div>
+
+   <div>
+   <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="#">Home</a></li>
+        <li ><a href="#about">About</a></li>
+        <li ><a href="#services">Services</a></li>
+        <li ><a href="#contact">Contact</a></li>
+      </ul>
+	  </div>
+	 </div>
+  </div>
+</nav> -->
+<!--Navigation-->
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class= "header">
-    <div class="container">
-      <div class="row">
-          <img class="logo" src="images/ENI-TRANSPARENT-LOGO1.png">
+    <section class= "header">
+      <div class="container">
+        <div class="row">
+            <img class="logo" src="images/ENI-TRANSPARENT-LOGO1.png">
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <center><a link="https://www.grubhub.com/restaurant/eni-deli-1639-w-susquehanna-ave-philadelphia/353193" class="btn btn-success button-styling">Order Now!</a></center>
+        </div>
       </div>
     </section>
     <section class = "tagline">
       <div class="container">
         <div class="row">
-          <h2>The Dankest Wings on Campus</h2>
+          <h1>The Dankest Wings on Campus</h1>
         </div>
       </div>
     </section>
     <section class = "menu">
-      <div class="container">
+        <div class="container">
+        <h2>Check Out Our Awesome Wings!</h3>
+        <p>We have the most bomb flavors:</p>
         <div class="row">
-          <h3>Check out ou</h3>
+          <div class="one-half column category thumbnail">
+            <div class="caption">
+                <h2>Buffalo</h2>
+            </div>
+            <img class="u-max-full-width" src="images/wingbuffalo.jpg">
+          </div>
+          <div class="one-half column category thumbnail">
+            <div class="caption">
+                <h2>Plain</h2>
+            </div>
+            <img class="u-max-full-width" src="images/wing.jpg">
+          </div>
         </div>
         <div class="row">
-
+          <div class="one-half column category thumbnail">
+            <div class="caption">
+                <h2>Honey BBQ</h2>
+            </div>
+            <img class="u-max-full-width" src="images/winghoneybbq.jpg">
+          </div>
+          <div class="one-half column category thumbnail">
+            <div class="caption">
+                <h2>Jerk</h2>
+            </div>
+            <img class="u-max-full-width" src="images/wingjerk.jpg">
+          </div>
         </div>
+        <div class="row">
+          <div class="one-half column category thumbnail">
+            <div class="caption">
+                <h2>Salt and Pepper</h2>
+            </div>
+            <img class="u-max-full-width" src="images/wingsap.jpg">
+          </div>
+          <a link="#">
+            <div class="one-half column category thumbnail">
+            </div>
+          </a>
+        </div>
+      </div>
       </div>
     </section>
     <section class = "directions">
@@ -81,7 +155,7 @@
     <section class= "contact">
       <div class= "container">
         <div class= "row">
-          <h3>Contact Us</h3>
+          <h2>Contact Us</h2>
             <div class="social">
                 <a href="https://www.facebook.com/enideli1639/" title="facebook"><span class="fa fa-facebook"></span></a>
                 <a href="https://www.yelp.com/biz/eni-deli-philadelphia" title="yelp"><span class="fa fa-yelp"></span></a>
@@ -91,7 +165,22 @@
       </div>
     </section>
   </div>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="javascript">
 
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('nav').addClass('transparent');
+    } else {
+      $('nav').removeClass('transparent');
+    }
+  });
+
+</script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
