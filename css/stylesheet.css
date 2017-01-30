@@ -37,16 +37,22 @@ section {
 hr.small {
     max-width: 100px;
 }
-.food-box {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 450px;
-  height: 361px;
+.img-circle {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid #BA3A53;
 }
-.wings {
-  height: 80%;
-  width: 80%;
+.img-circle img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
 }
+
+
 .contact span {
   font-size: 2em;
   color: white;
