@@ -28,10 +28,24 @@ section {
   box-shadow: none;
   background: none;
   margin-left: 30px;
+  text-align: center;
 }
 .button-styling {
   display: block;
   margin: auto;
+}
+hr.small {
+    max-width: 100px;
+}
+.food-box {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 450px;
+  height: 361px;
+}
+.wings {
+  height: 80%;
+  width: 80%;
 }
 .contact span {
   font-size: 2em;
