@@ -18,12 +18,20 @@ section {
   color: white;
   text-align: center;
 }
-.contact {
+.heart {
+  color: red;
+}
+.made {
   color: white;
+}
+.footer {
+  text-align: center;
+  color: white;
+  height: 25vh;
   background: -webkit-linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
   background: linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
 }
-.contact a {
+.footer a {
   margin-top: 50px;
   box-shadow: none;
   background: none;
@@ -59,14 +67,14 @@ hr.small {
 }
 
 
-.contact span {
+.footer span {
   font-size: 2em;
   color: white;
   -webkit-transition: color ease .4s;
           transition: color ease .4s;
 }
 
-.contact span:hover {
+.footer span:hover {
   color: steelblue;
 }
 
