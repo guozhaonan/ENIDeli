@@ -24,6 +24,10 @@ section {
 .made {
   color: white;
 }
+.delivery {
+  width: 50%;
+  margin-top: 50px;
+}
 .footer {
   text-align: center;
   color: white;
