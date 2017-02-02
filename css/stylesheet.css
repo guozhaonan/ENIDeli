@@ -40,8 +40,6 @@ hr.small {
 .img-circle {
   display: inline-block;
   position: relative;
-  width: 250px;
-  height: 250px;
   overflow: hidden;
   border-radius: 50%;
   border: 10px solid #BA3A53;
