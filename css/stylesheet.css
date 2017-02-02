@@ -37,6 +37,14 @@ section {
 hr.small {
     max-width: 100px;
 }
+.circle-button {
+  border-radius: 50%;
+  width: 290px;
+  height: 290px;
+  color: white;
+  background-color: #3498db;
+  border: 10px solid #BA3A53;
+}
 .img-circle {
   display: inline-block;
   position: relative;
