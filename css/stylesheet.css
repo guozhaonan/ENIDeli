@@ -72,7 +72,7 @@ nav {
 .footer {
   text-align: center;
   color: white;
-  height: 25vh;
+  height: 30vh;
   background: -webkit-linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
   background: linear-gradient(-135deg, rgb(158, 27, 52), rgb(86, 0, 17));
 }
