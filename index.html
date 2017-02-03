@@ -75,20 +75,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a data-scroll class="navbar-brand" href="#header">ENI Deli</a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Link</a></li>
+        <li><a data-scroll href="#about-us">About Us</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a data-scroll href="#menu">Menu</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    <section class= "header">
+    <section class= "header" id="header">
       <div class="container">
         <div class="row">
           <img class="logo" src="images/ENI-TRANSPARENT-LOGO1.png">
@@ -96,11 +97,11 @@
         <br>
         <br>
         <div class="row">
-          <center><a link="#" class="btn btn-success button-styling">Order Now!</a></center>
+          <center><a data-scroll href="#order" class="btn btn-success button-styling">Order Now!</a></center>
         </div>
       </div>
     </section>
-    <section class = "tagline">
+    <section class = "tagline" id="about-us">
       <div class="container">
         <h1 class="huge-tagline">THE BEST WINGS ON CAMPUS</h1>
         <br>
@@ -129,7 +130,7 @@
         </div>
       </div>
     </section>
-    <section class = "menu">
+    <section class = "menu" id="menu">
         <div class="container">
         <h1 class="section-title">OUR WINGS</h1>
         <br>
@@ -169,7 +170,7 @@
             </div>
             <div class="one-third column category">
               <h4>Request a Flavor</h4>
-              <a href="#"><img class="u-max-full-width img-circle" src="images/sign.png"></a>
+              <a data-scroll href="#contact"><img class="u-max-full-width img-circle" src="images/sign.png"></a>
               <br>
               <br>
             </div>
@@ -182,7 +183,7 @@
         <br>
         <hr class="small">
         <br>
-        <h1>Order Online</h1>
+        <h1 id="order">Order Online</h1>
         <br>
         <div class="row">
           <div class="three columns">
@@ -204,7 +205,7 @@
         <br>
       </div>
     </section>
-    <section class= "directions">
+    <section class= "directions" id="contact">
       <div class= "container">
         <div class = "row">
           <h1 class="section-title">Contact Us</h1>
@@ -271,6 +272,13 @@
   ga('create', 'UA-91300356-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+    smoothScroll.init({
+      selector: '[data-scroll]',
+      speed: 500,
+      easing: 'easeInOutCubic'
+    });
 </script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
