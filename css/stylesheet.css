@@ -1,3 +1,6 @@
+body {
+  padding-top: 60px;
+}
 .header {
   background-color: #9e1b34;
   height: 100vh;
@@ -10,6 +13,9 @@
   margin: auto;
   width: 40%;
 }
+.smaller-tagline {
+  text-align: center;
+}
 .menu {
   background-color: #7E051D;
   color: white;
@@ -18,22 +24,34 @@
 .heart {
   color: red;
 }
+.left-side {
+  text-align: right;
+  color: black;
+}
 .section-title {
   font-family: 'Cabin', sans-serif;
   text-align: center;
 }
+.right-side {
+  text-align: left;
+  color: white;
+}
 .tagline {
-  text-align: center;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/enideli.jpg) no-repeat center center fixed;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../images/enideli.jpg) no-repeat center center scroll;
+  color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
 }
 .huge-tagline {
   font-family: 'Cabin', sans-serif;
-  color: white;
-  font-size: 65px;
+  font-weight: bold;
+  font-size: 70px;
 }
 .google-maps {
         position: relative;
