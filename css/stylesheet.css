@@ -1,3 +1,7 @@
+body {
+  margin-top: 70px;
+  background-color: #9e1b34
+}
 .header {
   background-color: #9e1b34;
   height: 100vh;
