@@ -18,11 +18,22 @@
 .heart {
   color: red;
 }
-.left-side {
-
+.section-title {
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
 }
-.right-side {
-
+.tagline {
+  text-align: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/enideli.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.huge-tagline {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  font-size: 75px;
 }
 .google-maps {
         position: relative;
