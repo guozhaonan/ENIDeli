@@ -40,6 +40,11 @@
   font-weight: bold;
   font-size: 70px;
 }
+nav {
+  background-color: #9e1b34;
+  border-color: #9e1b34;
+  color: white;
+}
 .google-maps {
         position: relative;
         padding-bottom: 75%; // This is the aspect ratio
