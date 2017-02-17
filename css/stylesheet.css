@@ -31,7 +31,7 @@ body {
 }
 .tagline {
   display: table;
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../images/enideli.jpg) no-repeat center center scroll;
   color: white;
   -webkit-background-size: cover;
