@@ -32,7 +32,7 @@ body {
 .tagline {
   display: table;
   width: 100vw;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../images/deep_fryer5.jpg) no-repeat center center scroll;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(../images/deepfryer5.jpg) no-repeat center center scroll;
   color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
